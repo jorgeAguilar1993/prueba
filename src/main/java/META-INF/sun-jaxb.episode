@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.11 
+Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.12.18 a las 10:03:32 AM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://services.java.main">
+    <schemaBindings map="false">
+      <package name="es.juntaex.lictor.integration.model.notarias"/>
+    </schemaBindings>
+    <bindings scd="tns:consultarCopiaSimple">
+      <class ref="es.juntaex.lictor.integration.model.notarias.ConsultarCopiaSimple"/>
+    </bindings>
+    <bindings scd="tns:consultarCopiaSimpleResponse">
+      <class ref="es.juntaex.lictor.integration.model.notarias.ConsultarCopiaSimpleResponse"/>
+    </bindings>
+    <bindings scd="tns:ConsultarSubsistencia">
+      <class ref="es.juntaex.lictor.integration.model.notarias.ConsultarSubsistencia"/>
+    </bindings>
+    <bindings scd="tns:ConsultarSubsistenciaResponse">
+      <class ref="es.juntaex.lictor.integration.model.notarias.ConsultarSubsistenciaResponse"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://datos.java.main">
+    <schemaBindings map="false">
+      <package name="es.juntaex.lictor.integration.model.notarias"/>
+    </schemaBindings>
+    <bindings scd="~tns:Entrada">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Entrada"/>
+    </bindings>
+    <bindings scd="~tns:Respuesta">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Respuesta"/>
+    </bindings>
+    <bindings scd="~tns:Solicitante">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Solicitante"/>
+    </bindings>
+    <bindings scd="~tns:Procedimiento">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Procedimiento"/>
+    </bindings>
+    <bindings scd="~tns:Funcionario">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Funcionario"/>
+    </bindings>
+    <bindings scd="~tns:Titular">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Titular"/>
+    </bindings>
+    <bindings scd="~tns:Atributos">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Atributos"/>
+    </bindings>
+    <bindings scd="~tns:Estado">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Estado"/>
+    </bindings>
+    <bindings scd="~tns:Transmisiones">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Transmisiones"/>
+    </bindings>
+    <bindings scd="~tns:TransmisionDatos">
+      <class ref="es.juntaex.lictor.integration.model.notarias.TransmisionDatos"/>
+    </bindings>
+    <bindings scd="~tns:DatosGenericos">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosGenericos"/>
+    </bindings>
+    <bindings scd="~tns:Emisor">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Emisor"/>
+    </bindings>
+    <bindings scd="~tns:Transmision">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Transmision"/>
+    </bindings>
+    <bindings scd="~tns:DatosEspecificos">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosEspecificos"/>
+    </bindings>
+    <bindings scd="~tns:Retorno">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Retorno"/>
+    </bindings>
+    <bindings scd="~tns:Protocolo">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Protocolo"/>
+    </bindings>
+    <bindings scd="~tns:DatosApoderado">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosApoderado"/>
+    </bindings>
+    <bindings scd="~tns:DatosPoderdante">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosPoderdante"/>
+    </bindings>
+    <bindings scd="~tns:Sujeto">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Sujeto"/>
+    </bindings>
+    <bindings scd="~tns:DocumentoIdentidad">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DocumentoIdentidad"/>
+    </bindings>
+    <bindings scd="~tns:Documento">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Documento"/>
+    </bindings>
+  </bindings>
+  <bindings scd="x-schema::tns" xmlns:tns="http://datos.java.main/xsd">
+    <schemaBindings map="false">
+      <package name="es.juntaex.lictor.integration.model.notarias"/>
+    </schemaBindings>
+    <bindings scd="~tns:Entrada">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$0"/>
+    </bindings>
+    <bindings scd="~tns:Respuesta">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$1"/>
+    </bindings>
+    <bindings scd="~tns:ApoderamientoPet">
+      <class ref="es.juntaex.lictor.integration.model.notarias.ApoderamientoPet"/>
+    </bindings>
+    <bindings scd="~tns:Alerta">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Alerta"/>
+    </bindings>
+    <bindings scd="~tns:EscrituraID">
+      <class ref="es.juntaex.lictor.integration.model.notarias.EscrituraID"/>
+    </bindings>
+    <bindings scd="~tns:Solicitante">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$2"/>
+    </bindings>
+    <bindings scd="~tns:Funcionario">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$3"/>
+    </bindings>
+    <bindings scd="~tns:Titular">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$4"/>
+    </bindings>
+    <bindings scd="~tns:Apoderamiento">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Apoderamiento"/>
+    </bindings>
+    <bindings scd="~tns:Escritura">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Escritura"/>
+    </bindings>
+    <bindings scd="~tns:DatosProtocolo">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosProtocolo"/>
+    </bindings>
+    <bindings scd="~tns:Protocolo">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$5"/>
+    </bindings>
+    <bindings scd="~tns:DatosApoderados">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosApoderados"/>
+    </bindings>
+    <bindings scd="~tns:Sujeto">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$6"/>
+    </bindings>
+    <bindings scd="~tns:Documentacion">
+      <class ref="es.juntaex.lictor.integration.model.notarias.Documentacion"/>
+    </bindings>
+    <bindings scd="~tns:DatosPoderdantes">
+      <class ref="es.juntaex.lictor.integration.model.notarias.DatosPoderdantes"/>
+    </bindings>
+    <bindings scd="~tns:Estado">
+      <class ref="es.juntaex.lictor.integration.model.notarias.$$$garbage$$$7"/>
+    </bindings>
+  </bindings>
+</bindings>
+

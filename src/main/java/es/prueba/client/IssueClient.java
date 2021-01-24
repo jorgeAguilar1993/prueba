@@ -29,8 +29,8 @@ public interface IssueClient {
 
 	@PostMapping(value = "/issues")
 	@Headers("Content-Type: application/json")
-	public Object createIssue(@RequestHeader(value = "Authorization") String token,
-			@RequestBody RequestCreate request) throws Exception;
+	public Object createIssue(@RequestHeader(value = "Authorization") String token, @RequestBody RequestCreate request)
+			throws Exception;
 
 	@PatchMapping(value = "/issues/{id}")
 	@Headers("Content-Type: application/json")

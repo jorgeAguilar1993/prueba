@@ -1,9 +1,3 @@
-url:
-  feign:
-    client:
-     logs: 
-        log: ${FEIGN_CLIENT_URL_LOGS:http://localhost:8015}
-
 server:
   port: 8020
 spring:
@@ -18,29 +12,6 @@ feign:
 eureka:
    client:
         enabled: false
-seguridad:
-  jwt:
-    expiration: '25200'
-    header: Authorization
-    prefix: 'Bearer '
-    secret: JwtSecretKey
-    uri: /user/authUser
-  whitelist:
-  - /v2/api-docs/**
-  - /swagger-ui.html*/**
-  - /webjars/springfox-swagger-ui/**
-  - /swagger-resources/**
-  - /favicon.ico
-  - /actuator/**
-  - /user/attemptLogin/**
-  - /user/existsInvalidToken
-  - /user/validateUser/**
-  - /user/**
+github:
+    token: Bearer af6053f001c6377d874ba957ea7248e029fa4978
 
-copiasimple:
-   ws:
-    endpoint-url: https://pruintegra.gobex.pri/SOAP/NOTARIOS-COPIASIMPLE/v01_01/
-    key-store: classpath:lictor.jks
-    key-storepassword: pidex
-    trust-store: classpath:servidor.jks
-    trust-store-password: pidex

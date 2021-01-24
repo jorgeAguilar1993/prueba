@@ -1,19 +1,10 @@
 package es.prueba.service.impl;
 
-import java.net.HttpURLConnection;
 import java.util.List;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpPatch;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.message.BasicHeader;
-import org.apache.http.protocol.HTTP;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import es.prueba.client.IssueClient;
 import es.prueba.issue.vo.RequestCreate;
@@ -24,8 +15,8 @@ import es.prueba.service.IIssueService;
 
 @Service
 public class IssueServiceImpl implements IIssueService {
-
-	private String token = "Bearer af6053f001c6377d874ba957ea7248e029fa4978";
+	@Value("${github.token}")
+	private String token;
 
 	@Autowired
 	private IssueClient office365Client;
